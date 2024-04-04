@@ -2,10 +2,16 @@
 
 Github repo: https://github.com/jamezwhocares/enudiena2024
 
+![Github repo QR code](qr_for_github_repo.png)
+
 
 ## Agenda
 
 ### Short intro (mine/yours)
+
+### My experience
+
+...
 
 ### Explanations of roles
 
@@ -21,17 +27,13 @@ Github repo: https://github.com/jamezwhocares/enudiena2024
 
 ### DevOps tech stack
 
-- [Continuous integration (CI) / Continuous delivery (CD)](https://en.wikipedia.org/wiki/CI/CD)
+- [Continuous integration (CI) / Continuous delivery (CD)](https://en.wikipedia.org/wiki/CI/CD): Jenkins, GitLab, Azure DevOps
 
-- [Infrastructure as a Code (IaaC)](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+- [Infrastructure as a Code (IaaC)](https://en.wikipedia.org/wiki/Infrastructure_as_code): Terraform, Chef, Ansible, Saltstack, Puppet
 
-- Version control (Git, SVN)
+- Version controls: Git, SVN
 
-- Clouds (Azure, AWS, GCP)
-
-### My experience
-
-...
+- Public Clouds: Azure, AWS, GCP
 
 ### My current duties
 
@@ -39,26 +41,30 @@ Github repo: https://github.com/jamezwhocares/enudiena2024
 
 ### Farewell words and recommendations
 
-- Improve your English
+- Focus on education, in long run term get at leat Bachelor degree
+    - But always do hands-on / practices (hobby project, hands-on/lab sites (see below))
+    - Assess possibility to take remote Bachelor program (e.g., [this from Coursera/University of London](https://www.coursera.org/degrees/bachelor-of-science-computer-science-london)), but make sure you can team up with someone, or check [SANS Technology Institute](https://www.sans.edu/)
 
-- Focus on education, get at leat Bachelor
-    - But always do hands-on / practices
-    - Assess possibity to take remote Bachelor programm (e.g., [this from Coursera/University of London](https://www.coursera.org/degrees/bachelor-of-science-computer-science-london)), but make sure you can team up with someone
+- Learn English: 1. Read, 2.Listen, 3. Speak (incl. presentations), 4. Write (ChatGPT to the rescue)
 
-- Watch some (video) tutorial on simple subject and try to understand and replicate each step, e.g., "How to set Linux web server inside Linux VM running under Virtual Box"
+- Learn how to search for information ("Google")
+
+    - Consider some OSINT videos/courses: [Open-Source Intelligence (OSINT) in 5 Hours by The Cyber Mentor](https://www.youtube.com/watch?v=qwA6MmbeGNo) or [OSINT Introduction: What is Open Source Intelligence? by OSINT Dojo](https://www.youtube.com/watch?v=Sa5LbKqCmFI)
+
+- Watch some (video) tutorials on fundamental subjects and try to understand and replicate each step:
+
+    - Install Linux inside Virtual Box and configure web server with simplest "Hello World" index.html page
+
+    - Configure PHP support for web serve and create "index.php" that will print "Hello World"
+
+    - Create more Linux VMs and configure network between them
+
+    - Create repository in Github, checkout it in your Linux VM (+ created changes, push them to Github...)
 
 - Find a mentor / someone who inspires you to learn
     - Find a friend, agree on and define some (feasible) goals:
 
-        1.1. Install Linux inside Virtual Box and configure web server with simplest "Hello World" index.html page
-
-        1.2. Configure PHP support for web serve and create "index.php" that will print "Hello World"
-
-        1.3. Create more Linux VMs and configure network between them
-
-    - Create repository in Github, checkout it in your Linux VM (+ created changes, push them to Github...)
-
-- Being a pupil/student gives a lot of discounts on many resources/platforms
+- Being a pupil/student gives a lot of discounts on many resources/platforms/certification: use it!
 
 
 ## Certification
@@ -86,7 +92,10 @@ Github repo: https://github.com/jamezwhocares/enudiena2024
 
 ## Useful resources
 
+- [SANS Education](https://www.sans.org/partnerships/education/)
+
 - [CS50 from Harvard University YouTube](https://www.youtube.com/cs50)
+
     - [CS50/2023: full Computer Science course YouTube](https://www.youtube.com/watch?v=LfaMVlDaQ24) or [this YouTube playlist](https://www.youtube.com/watch?v=IDDmrzzB14M&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4)
 
 - [freeCodeCamp YouTube](https://www.youtube.com/@freecodecamp)
@@ -99,3 +108,12 @@ Github repo: https://github.com/jamezwhocares/enudiena2024
 
 - [Coursera](https://www.coursera.org/)
 
+- [SANS Cyber Range](https://www.sans.org/cyber-ranges/)
+
+- [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/)
+
+- [CTFtime](https://ctftime.org/)
+
+- ... Or just search yourself for `beginner devops ctf writeup` or `beginner devops lab`
+
+NB: When just starting with CTFs, make sure to attempt event after it is officially finished and write-ups (solutions) are available; Before sneaking into solution, try to solve it your self for ~30 minutes (don't allow it to become boring).
